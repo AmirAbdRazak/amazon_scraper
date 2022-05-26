@@ -8,3 +8,4 @@ Project workflow:
 1) Scrape the product price and product name through Beautiful Soup 4 on Amazon.
 2) Compare it against the target price you set, you can check it on https://www.camelcamelcamel.com to set the target price.
 3) Email the user if the price is below the target price, SMTP will manage sending the email. 
+4) This is ran through PythonAnywhere everyday, or anytime you would prefer.
