@@ -22,7 +22,7 @@ product_name = soup.find(name="span", id="productTitle", class_="a-size-large").
 
 if price < TARGET_PRICE:
 
-    msg = f"""Hello Amir, your item {product_name} is available and the price is now below your target price [{TARGET_PRICE}], and is now priced at ${price}.
+    msg = f"""Hello Amir, your item {product_name} is available and the price is now below your target price $[{TARGET_PRICE}], and is now priced at ${price}.
             Here is the link to your desired product: {PRODUCT_LINK}.  
     """
     try:
